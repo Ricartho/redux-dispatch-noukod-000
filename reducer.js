@@ -7,14 +7,9 @@ function changeState(state, action){
       return state;
   }
 }
-
 render = () => (document.body.textContent = state.count)
-
 function dispatch(action){
   state = changeState(state,action)
   render()
 }
-
 render()
-
-
